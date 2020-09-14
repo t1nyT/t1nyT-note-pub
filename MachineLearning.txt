@@ -1,0 +1,46 @@
+Note:
+
+Machine Learning
+ Arthur Samuel-> Field of study that gives computers the ability to learn without being
+explicitly programmed.
+
+Supervised Learning(监督学习)
+Regression problem (回归问题) 离散 ->(预测) 连续
+Classification problem(分类问题) 预测离散值的输出
+  一个数据集中包含着正确答案，算法的目的是给出更多的正确答案
+	prediction
+	fit a straight line to the data  (直线拟合数据)
+	fit the quadratic function to the data   (二次函数拟合数据)
+	
+Unsupervised Learning(无监督学习)
+	data set有相同的标签或者没有标签
+	clutering algorithm(聚类算法): break data into different clusters
+	
+
+1. Linear regression with one variable
+	Traning set
+	hθ(x) - hypothesis(假设函数)
+	J(θ1) - 代价函数
+	x -> h -> y
+	
+	m=number of training examples
+	x=input variable
+	y=output variable
+	
+	Hypothesis: hθ(x) = θ0 + θ1x
+	Idea->
+		Choose θ0, θ1 so that hθ(x) is close to y for out traing
+		examples(x, y)
+		
+	overall objective function
+	min θ0,θ1 1/2m.....
+	
+	***  cost function  ***
+	error(误差) cost function is the most commonly used one for regression problems.
+	
+	
+
+
+	
+	
+	
